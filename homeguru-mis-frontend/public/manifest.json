@@ -1,6 +1,6 @@
 {
-  "short_name": "Homeguru MIS",
-  "name": "Homeguru Management Information System",
+  "short_name": "HomeGuru MIS",
+  "name": "HomeGuru Management Information System",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#4f46e5",
   "background_color": "#ffffff"
 }

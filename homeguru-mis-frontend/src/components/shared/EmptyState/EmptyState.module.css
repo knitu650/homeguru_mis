@@ -1,0 +1,33 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  color: var(--text-tertiary);
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  max-width: 400px;
+}
+
+.action {
+  margin-top: 0.5rem;
+}
