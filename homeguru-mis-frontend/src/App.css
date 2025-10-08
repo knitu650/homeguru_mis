@@ -1,3 +1,26 @@
+/* App-specific styles */
 .App {
-  text-align: center;
+  min-height: 100vh;
+}
+
+/* Toast customization */
+.Toastify__toast {
+  border-radius: var(--border-radius-md);
+  font-family: var(--font-family-primary);
+}
+
+.Toastify__toast--success {
+  background-color: var(--color-success);
+}
+
+.Toastify__toast--error {
+  background-color: var(--color-error);
+}
+
+.Toastify__toast--warning {
+  background-color: var(--color-warning);
+}
+
+.Toastify__toast--info {
+  background-color: var(--color-info);
 }

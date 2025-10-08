@@ -1,9 +1,3 @@
-# See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
-#
-# A robot should obey at least one from a group of user-agent records.
-
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /private/
-Disallow: /tmp/
-
-Sitemap: https://www.example.com/sitemap.xml
+Disallow:

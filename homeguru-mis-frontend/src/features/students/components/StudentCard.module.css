@@ -1,0 +1,27 @@
+.studentCard {
+  cursor: pointer;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.class,
+.rollNo {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}

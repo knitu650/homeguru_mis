@@ -1,0 +1,46 @@
+/* Light Theme */
+[data-theme='light'] {
+  /* Background */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-tertiary: #f3f4f6;
+  --bg-overlay: rgba(0, 0, 0, 0.5);
+
+  /* Text Colors */
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-tertiary: #9ca3af;
+  --text-inverse: #ffffff;
+
+  /* Border */
+  --border-color: #e5e7eb;
+  --border-color-dark: #d1d5db;
+
+  /* Card */
+  --card-bg: #ffffff;
+  --card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  /* Sidebar */
+  --sidebar-bg: #ffffff;
+  --sidebar-text: #4b5563;
+  --sidebar-text-active: #4f46e5;
+  --sidebar-bg-active: #eef2ff;
+  --sidebar-border: #e5e7eb;
+
+  /* Header */
+  --header-bg: #ffffff;
+  --header-text: #111827;
+  --header-border: #e5e7eb;
+
+  /* Input */
+  --input-bg: #ffffff;
+  --input-border: #d1d5db;
+  --input-border-focus: #4f46e5;
+  --input-text: #111827;
+  --input-placeholder: #9ca3af;
+
+  /* Table */
+  --table-header-bg: #f9fafb;
+  --table-row-hover: #f3f4f6;
+  --table-border: #e5e7eb;
+}
