@@ -1,5 +1,5 @@
 import React from 'react';
-import Badge from '@components/common/Badge';
+import Badge from 'components/common/Badge';
 
 const statusConfig = {
   active: { variant: 'success', label: 'Active' },

@@ -1,8 +1,8 @@
 import React from 'react';
-import Card from '@components/common/Card';
+import Card from 'components/common/Card';
 import { FiUsers, FiUserCheck, FiBookOpen, FiDollarSign } from 'react-icons/fi';
-import LineChart from '@components/shared/Charts/LineChart';
-import BarChart from '@components/shared/Charts/BarChart';
+import LineChart from 'components/shared/Charts/LineChart';
+import BarChart from 'components/shared/Charts/BarChart';
 import styles from './AdminDashboard.module.css';
 
 const statsData = [
@@ -42,7 +42,7 @@ const AdminDashboard = () => {
       <div className={styles.header}>
         <div>
           <h1 className={styles.title}>Dashboard</h1>
-          <p className={styles.subtitle}>Welcome back! Here's what's happening today.</p>
+          <p className={styles.subtitle}>Welcome back! Here&apos;s what&apos;s happening today.</p>
         </div>
       </div>
 

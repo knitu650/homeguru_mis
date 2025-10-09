@@ -1,5 +1,5 @@
-import apiClient from '@services/api/apiClient';
-import { API_ENDPOINTS } from '@config/api.config';
+import apiClient from 'services/api/apiClient';
+import { API_ENDPOINTS } from 'config/api.config';
 
 export const studentService = {
   getAll: async (params) => {

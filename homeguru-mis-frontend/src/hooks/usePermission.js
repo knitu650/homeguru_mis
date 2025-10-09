@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { useAuth } from '@context/AuthContext';
-import { PERMISSIONS, ROLE_PERMISSIONS } from '@config/permissions.config';
+import { useAuth } from 'context/AuthContext';
+import { PERMISSIONS, ROLE_PERMISSIONS } from 'config/permissions.config';
 
 const usePermission = () => {
   const { user } = useAuth();

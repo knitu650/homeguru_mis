@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setIsMobile } from '@store/slices/uiSlice';
+import { setIsMobile } from 'store/slices/uiSlice';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
 import Footer from '../Footer';

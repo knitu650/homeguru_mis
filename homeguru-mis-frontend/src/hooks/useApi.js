@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import apiClient from '@services/api/apiClient';
+import apiClient from 'services/api/apiClient';
 
 const useApi = () => {
   const [loading, setLoading] = useState(false);

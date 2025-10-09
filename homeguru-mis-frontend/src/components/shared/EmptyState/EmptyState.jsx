@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiInbox } from 'react-icons/fi';
-import Button from '@components/common/Button';
+import Button from 'components/common/Button';
 import styles from './EmptyState.module.css';
 
 const EmptyState = ({

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Card from '@components/common/Card';
-import Button from '@components/common/Button';
-import SearchBar from '@components/common/SearchBar';
-import Table from '@components/common/Table';
-import Badge from '@components/common/Badge';
+import Card from 'components/common/Card';
+import Button from 'components/common/Button';
+import SearchBar from 'components/common/SearchBar';
+import Table from 'components/common/Table';
+import Badge from 'components/common/Badge';
 import { FiPlus, FiEdit, FiTrash } from 'react-icons/fi';
 
 const mockStudents = [

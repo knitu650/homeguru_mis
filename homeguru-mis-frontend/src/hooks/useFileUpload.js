@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
-import apiClient from '@services/api/apiClient';
-import { APP_CONFIG } from '@config/app.config';
+import apiClient from 'services/api/apiClient';
+import { APP_CONFIG } from 'config/app.config';
 
 const useFileUpload = (options = {}) => {
   const {

@@ -9,7 +9,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
-import { CHART_CONFIG } from '@config/chart.config';
+import { CHART_CONFIG } from 'config/chart.config';
 
 ChartJS.register(
   CategoryScale,

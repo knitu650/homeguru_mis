@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '@context/AuthContext';
-import AuthLayout from '@components/layout/AuthLayout';
-import Input from '@components/common/Input';
-import Button from '@components/common/Button';
-import Alert from '@components/common/Alert';
+import { useAuth } from 'context/AuthContext';
+import AuthLayout from 'components/layout/AuthLayout';
+import Input from 'components/common/Input';
+import Button from 'components/common/Button';
+import Alert from 'components/common/Alert';
 import { FiMail, FiLock } from 'react-icons/fi';
 
 const LoginPage = () => {

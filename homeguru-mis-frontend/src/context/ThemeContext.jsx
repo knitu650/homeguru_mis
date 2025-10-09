@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setTheme } from '@store/slices/uiSlice';
-import { THEME_CONFIG } from '@config/theme.config';
+import { setTheme } from 'store/slices/uiSlice';
+import { THEME_CONFIG } from 'config/theme.config';
 
 const ThemeContext = createContext(null);
 

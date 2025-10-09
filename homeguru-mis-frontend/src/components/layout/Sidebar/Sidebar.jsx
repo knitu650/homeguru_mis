@@ -13,7 +13,7 @@ import {
   FiTruck,
   FiSettings,
 } from 'react-icons/fi';
-import { setSidebarCollapsed } from '@store/slices/uiSlice';
+import { setSidebarCollapsed } from 'store/slices/uiSlice';
 import styles from './Sidebar.module.css';
 
 const menuItems = [

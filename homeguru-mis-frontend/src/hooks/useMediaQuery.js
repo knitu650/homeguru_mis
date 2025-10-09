@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BREAKPOINTS } from '@config/theme.config';
+import { BREAKPOINTS } from 'config/theme.config';
 
 const useMediaQuery = (query) => {
   const getMatches = (query) => {

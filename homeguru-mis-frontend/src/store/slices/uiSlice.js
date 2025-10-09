@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { THEME_CONFIG } from '@config/theme.config';
+import { THEME_CONFIG } from 'config/theme.config';
 
 const initialState = {
   theme: localStorage.getItem(THEME_CONFIG.storageKey) || THEME_CONFIG.defaultTheme,

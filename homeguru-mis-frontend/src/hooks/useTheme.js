@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setTheme as setThemeAction, toggleTheme as toggleThemeAction } from '@store/slices/uiSlice';
-import { THEME_CONFIG } from '@config/theme.config';
+import { setTheme as setThemeAction, toggleTheme as toggleThemeAction } from 'store/slices/uiSlice';
+import { THEME_CONFIG } from 'config/theme.config';
 
 const useTheme = () => {
   const dispatch = useDispatch();

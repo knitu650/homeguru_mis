@@ -1,14 +1,14 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import ProtectedRoute from '@components/shared/ProtectedRoute';
-import MainLayout from '@components/layout/MainLayout';
-import AuthLayout from '@components/layout/AuthLayout';
+import ProtectedRoute from 'components/shared/ProtectedRoute';
+import MainLayout from 'components/layout/MainLayout';
+import AuthLayout from 'components/layout/AuthLayout';
 
 // Auth Pages
-import LoginPage from '@features/auth/pages/LoginPage';
+import LoginPage from 'features/auth/pages/LoginPage';
 
 // Dashboard Pages
-import AdminDashboard from '@features/dashboard/pages/AdminDashboard';
+import AdminDashboard from 'features/dashboard/pages/AdminDashboard';
 
 // Placeholder pages
 const StudentsPage = () => <div>Students Page</div>;

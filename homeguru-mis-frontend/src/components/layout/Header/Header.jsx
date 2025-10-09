@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiMenu, FiBell, FiMoon, FiSun } from 'react-icons/fi';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleSidebar, toggleTheme } from '@store/slices/uiSlice';
+import { toggleSidebar, toggleTheme } from 'store/slices/uiSlice';
 import styles from './Header.module.css';
 
 const Header = () => {
